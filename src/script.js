@@ -26,7 +26,7 @@ function KelilingPP(){
     var p = document.getElementById("panjang-keliling").value;
     var l = document.getElementById("lebar-keliling").value;
 
-    var w = 2 * (p + l);
+    var w = 2 * p + 2 * l;
 
     document.getElementById("hasil-kelilingPP").innerHTML = "K = 2 x (P + L) <br> K = 2 x (" + p + " + " + l + ") <br> K = " + w;
 }
